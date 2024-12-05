@@ -1,0 +1,75 @@
+@media (min-width: 506px) {
+    .header__title {
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+
+@media(min-width: 700px) {
+
+
+
+    .fotos__img {
+        flex-basis: 100px;
+        max-width: 180px;
+        flex-grow: 1;
+
+        width: 100%;
+        border-radius: 1em;
+        box-shadow: 0 2px 2px #000;
+    }
+
+    .itinerario__aviso {
+ 
+        width: 100%;
+    }
+
+    .title--tempo {
+        margin-bottom: 0;
+        font-size: 4rem;
+        color: #D5BA94;
+    }
+
+    .timer-value {
+        font-family: var(--font-montserrat);
+        font-size: 2.5rem;
+        color: var(--color-numeros-temporizador);
+        border: 2px solid var(--color-bordes-temporizador);
+        padding: 8px;
+        border-radius: .3em;
+    }
+    .frase__title{
+        font-family: var(--font-montecarlo);
+        font-size: 5rem;
+        color: #fff;
+        text-shadow: 0 2px 2px #000;
+        margin: 0;
+    }
+}
+
+@media (min-width:1000px) {
+    .header__title {
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 5rem
+    }
+
+    .header__links {
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: clamp(100px, 90%, 1000px);
+    }
+
+    .name__paragraph2 {
+        margin-bottom: 0;
+        line-height: 1.4;
+    }
+}
+
+@media (max-width:600px) {
+
+}
